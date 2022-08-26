@@ -1,0 +1,84 @@
+body {
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
+  background-size: cover;
+  font-family: sans-serif;
+  background-image: url("img/background.jpg");
+  
+
+  }
+  .Head-titel {
+    color: white;
+    margin-left: 30px;
+  }
+  header {
+  background-color: rgb(11, 3, 3);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  font-weight: 700;
+  }
+  header * {
+  display: inline;
+  }
+  header li {
+  margin: 20px;
+  }
+  header li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  }
+
+
+img {
+  height: 400px;
+  margin-left: 100px;
+
+
+}
+.img-class {
+  display: flex;
+  align-items: center;
+}
+
+#input {
+
+  position: relative;
+  right: -100px;
+  background-repeat: no-repeat; 
+  width: 20%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd; 
+  margin-bottom: 5px;
+
+}
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+
+
